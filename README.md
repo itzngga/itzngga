@@ -13,6 +13,8 @@
 
 - 🧩 Interested in: Technology, Low-level, and Web Development.
 
+- 🌐 Website: [ranggash.my.id](https://ranggash.my.id)
+
 ### 🛠 &nbsp;Tech Talk
 
 - Languages: &nbsp;
