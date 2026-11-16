@@ -2,6 +2,10 @@
 title: How this site is built
 date: 2026-11-16
 description: A small static site and blog on Cloudflare, with a cheap .my.id domain and no server to look after.
+tags: Cloudflare, Web
+image_alt: A monitor showing HTML code in a dark editor
+image_credit: Pankaj Patel
+image_url: https://unsplash.com/photos/monitor-displaying-indexhtml-codes-_SgRNwAVNKw
 ---
 
 This site is one page, one stylesheet and a small blog. There is no server for me to look after, and the hosting is free.
