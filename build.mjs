@@ -98,8 +98,8 @@ function page({ title, description, url, ogType, image, extraHead = "", crumbs, 
 <meta name="description" content="${esc(description)}">
 <meta name="author" content="${AUTHOR}">
 <link rel="canonical" href="${url}">
-<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#141513" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f1f5f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#020617" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="${ogType}">
 <meta property="og:url" content="${url}">
 <meta property="og:title" content="${esc(title)}">
@@ -111,7 +111,7 @@ ${extraHead}<link rel="icon" href="https://avatars.githubusercontent.com/u/29621
 <link rel="alternate" type="application/rss+xml" title="${esc(BLOG_TITLE)}" href="/blog/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
 <script>
   try {
     var t = localStorage.getItem("theme");
