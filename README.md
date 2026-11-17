@@ -49,15 +49,16 @@ I build online stores, website tools, SEO and automation.
 ### Latest from the blog
 
 <!-- BLOG-POSTS:START -->
+- [pingora-edge: a small edge proxy in Rust](https://ranggash.my.id/blog/pingora-edge/) · 18 Nov 2026
 - [Go or Rust: how I choose](https://ranggash.my.id/blog/go-or-rust-how-i-choose/) · 16 Nov 2026
 - [How this site is built](https://ranggash.my.id/blog/how-this-site-is-built/) · 16 Nov 2026
-- [SEO basics for developers](https://ranggash.my.id/blog/seo-basics-for-developers/) · 16 Nov 2026
 <!-- BLOG-POSTS:END -->
 
 [All posts →](https://ranggash.my.id/blog/)
 
 ### Open source
 
+- [**pingora-edge**](https://github.com/itzngga/pingora-edge) (Rust): a small TLS edge proxy built on Pingora, with [a post about it](https://ranggash.my.id/blog/pingora-edge/)
 - [**Roxy**](https://github.com/itzngga/Roxy) (Go): a command handler layer for WhatsApp bots
 - [**wa-bot.js**](https://github.com/itzngga/wa-bot.js) (JavaScript): WhatsApp automation through Puppeteer, my most-starred repo
 - [**xbot**](https://github.com/itzngga/xbot) (TypeScript): a WhatsApp bot
