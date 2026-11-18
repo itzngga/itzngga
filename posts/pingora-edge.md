@@ -10,7 +10,7 @@ image_url: https://unsplash.com/photos/time-lapse-photography-of-lighted-road-at
 
 I just published a project I enjoyed building: [pingora-edge](https://github.com/itzngga/pingora-edge), a small edge proxy written in Rust. It sits at the front, takes HTTPS traffic for many hostnames and sends each request where it belongs.
 
-It is built on [Pingora](https://github.com/cloudflare/pingora), the Rust proxy framework from Cloudflare, with BoringSSL for TLS. It is a showcase project. Other Pingora proxies are more complete as products, but this one is a nice place to see a few ideas at work.
+It is built on [Pingora](https://github.com/cloudflare/pingora), the Rust proxy framework from Cloudflare, with BoringSSL for TLS. It runs in production. It's not perfect, but it holds up, and a few ideas in it are worth sharing.
 
 ## What it does
 
@@ -28,7 +28,7 @@ It is built on [Pingora](https://github.com/cloudflare/pingora), the Rust proxy 
 
 ## Try it
 
-The repo has a short guide for each part, and a local playground that needs no domain and no certificate authority:
+The [docs](https://itzngga.github.io/pingora-edge/) have a short guide for each part, and a local playground that needs no domain and no certificate authority:
 
 ```bash
 git clone https://github.com/itzngga/pingora-edge
@@ -36,7 +36,7 @@ cd pingora-edge
 cargo build --release
 ```
 
-Then follow the [getting started guide](https://github.com/itzngga/pingora-edge/blob/main/docs/getting-started.md). The [abuse defence page](https://github.com/itzngga/pingora-edge/blob/main/docs/abuse-defence.md) explains the layers in the order a connection meets them.
+Then follow the [getting started guide](https://itzngga.github.io/pingora-edge/getting-started.html). The [abuse defence page](https://itzngga.github.io/pingora-edge/abuse-defence.html) explains the layers in the order a connection meets them.
 
 ## Honest limits
 
@@ -44,4 +44,4 @@ Then follow the [getting started guide](https://github.com/itzngga/pingora-edge/
 - One upstream per route, and no load balancing across several backends.
 - Built for Linux first, and the code has not been audited.
 
-So treat it as something to read and borrow ideas from, and review it carefully before putting it in front of a real site. If you try it or spot a bug, open an issue. I would love to hear what you think.
+So review it before you put it in front of your own site. If you try it or spot a bug, open an issue. I would love to hear what you think.
